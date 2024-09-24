@@ -1,0 +1,142 @@
+/* typeface import */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+@font-face{
+    src: url(PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+/* heading styling */
+
+h1 {
+    color: black(255, 35, 35);
+    size: 0cm;
+    font-family: 'picnic';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.h2 {
+    color: black;
+    font-family: "Sofia Sans", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 87%;
+}
+
+.images{
+    height: 1100px;
+}
+
+
+/* russian paragraph */
+
+.paragraph1{
+    color: black;
+    font-size: 20px;
+    font-family: "Sofia Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 50%;
+}
+
+.paragraph1:hover{
+    opacity: 0;
+}
+
+.paragraph2{
+    color: black;
+    font-size: 20px;
+    font-family: "Sofia Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 30%;
+    
+}
+
+.paragraph2:hover{
+    opacity: 0;
+}
+
+/* english paragraph */
+
+.paragraph3{
+    color: black;
+    font-size: 20px;
+    font-family: "Sofia Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.paragraph3:hover{
+    opacity: 0;
+}
+
+.paragraph4{
+    color: black;
+    font-size: 20px;
+    font-family: "Sofia Sans", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+    
+}
+
+.paragraph4:hover{
+    color: white;
+    opacity: 0;
+}
+
+/* overlaying paragraph over image*/
+
+.image-container{
+    position:relative;
+    display: inline-block;
+}
+
+.image-container img{
+    display: block;
+    height: 1100px;
+}
+
+.overlay-text{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-.1%,-3%);
+    color: black;
+}
+
+.pattern{
+    margin-top: 50px;
+}
+.pattern-size{
+    height: 55px;
+}
+
+
+
+/* photoshopped images */
+
+.photoshop{
+    margin-left: 11%;
+    margin-right: 7%;
+    height: 50px;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+
+.size{
+    height: 1100px;
+}
+
