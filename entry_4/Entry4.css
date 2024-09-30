@@ -1,5 +1,7 @@
 
-
+html{
+    overflow-x: hidden;
+}
 
 /* Block 1 */
 
@@ -11,6 +13,7 @@
     top: 0px;
     left: 0px;
     cursor:url(images/cursor1.png), auto;
+    
 }
 
 .imageone:hover{
