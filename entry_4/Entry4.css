@@ -1,0 +1,212 @@
+
+
+
+/* Block 1 */
+
+.imageone{
+    width: 534px;
+    height: 1080px;
+    background: linear-gradient(180deg, #C1965F 0%, #694223 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor:url(images/cursor1.png), auto;
+}
+
+.imageone:hover{
+    background-image: url(images/1.png);  
+    
+}
+.imagetwo{
+    width: 814px;
+    height: 1080px;
+    background: linear-gradient(180deg, #360206 0%, #C75B51 100%);
+    position: absolute;
+    left: 534px;
+    top:0px;
+    cursor:url(images/cursor1.png), auto;
+}
+
+.imagetwo:hover{
+    background-image: url(images/2.png);
+    background-size: cover;
+}
+
+.imagethree{
+    width: 420px;
+    height: 1080px;
+    background: linear-gradient(180deg, #700103 0%, #C76C40 100%);
+    position: absolute;
+    left: 1340px;
+    top:0px;
+    cursor:url(images/cursor1.png), auto;
+}
+
+.imagethree:hover{
+    background-image: url(images/3.png);
+}
+
+/* Block 2 */
+
+.imagefour{
+    width: 862px;
+    height: 647px;
+    background: linear-gradient(180deg, #6992B1 0%, #C4A187 100%);
+    position: absolute;
+    top:1080px;
+    left: 0px;
+    cursor:url(images/cursor2.png), auto;
+}
+
+
+.imagefour.imagefour:hover{
+    background-image: url(images/4.png);
+}
+
+
+.imagefive{
+    width: 1110px;
+    height: 1130px;
+    background: linear-gradient(180deg, #F6CBD7 0%, #F7DF53 100%);
+    position: absolute;
+    top:1080px;
+    left: 647px;
+    cursor:url(images/cursor2.png), auto;
+}
+
+
+.imagefive:hover{
+    background-image: url(images/5.png);
+}
+
+
+.imagesix{
+    width: 443px;
+    height: 483px;
+    background: linear-gradient(90deg, #CF68BF 0%, #FAC3A4 100%);
+    position: absolute;
+    top:1727px;
+    left: 0px;
+    cursor:url(images/cursor2.png), auto;
+}
+
+
+.imagesix:hover{
+    background-image: url(images/6.png);
+}
+
+.imageseven{
+    width: 204px;
+    height: 483px;
+    background: linear-gradient(270deg, #6992B1 0% 0%, #9EA7A3 87.42%);
+    position: absolute;
+    top:1727px;
+    left: 443px;
+    cursor:url(images/cursor2.png), auto;
+}
+
+.imageseven:hover{
+    background-image: url(images/7.png);
+}
+
+/* Block 3 */
+
+.imageeight{
+    background: linear-gradient(90deg, #CF000B 0%, #4632E3 100%);
+    width: 720px;
+    height: 540px;
+    position: absolute;
+    top: 2210px;
+    left: 0px;
+    cursor:url(images/cursor3.png), auto;
+}
+
+.imageeight:hover{
+    background-image: url(images/8.png);
+}
+
+.imagenine{
+    background: linear-gradient(90deg, #1222FF -5.56%, #C3051E 100%);
+    width: 720px;
+    height: 540px;
+    position: absolute;
+    top: 2750px;
+    left: 0px;
+    cursor:url(images/cursor3.png), auto;
+}
+
+.imagenine:hover{
+    background-image: url(images/9.png);
+}
+
+.imageten{
+    background:linear-gradient(90deg, #F5D46D 0%, #BB1A25 100%);
+    width: 648px;
+    height: 435px;
+    position: absolute;
+    top: 2210px;
+    left: 720px;
+    cursor:url(images/cursor3.png), auto;
+}
+
+.imageten:hover{
+    background-image: url(images/10.png);
+}
+
+.imageeleven{
+    width: 394px;
+    height: 435px;
+    background: linear-gradient(90deg, #F77DB5 0%, #0475BC 100%);
+    position: absolute;
+    top: 2210px;
+    left: 1368px;
+    cursor:url(images/cursor3.png), auto;
+
+}
+
+.imageeleven:hover{
+    background-image: url(images/11.png);
+}
+
+.imagetwelve{
+    width: 1042px;
+    height: 645px;
+    background: linear-gradient(90deg, #EE81FF 2%, #CA1228 100%);
+    position: absolute;
+    top: 2645px;
+    left: 720px;
+    cursor:url(images/cursor3.png), auto;
+}
+
+.imagetwelve:hover{
+    background-image: url(images/12.png);
+}
+
+/* Block 4 */
+
+.imagethirteen{
+    width: 582px;
+    height: 1080px;
+    position: absolute;
+    top: 3290px;
+    left: 0px;
+    background: linear-gradient(180deg, #EA382E 0%, #E9C070 100%);
+    cursor:url(images/cursor4.png), auto;
+}
+.imagethirteen:hover{
+    background-image: url(images/13.png);
+}
+
+.imagefourteen{
+    width: 1180px;
+    height: 1080px;
+    position: absolute;
+    top: 3290px;
+    left: 582px;
+    background:  linear-gradient(90deg, #EB3D31 7.56%, #EABC6E 99.91%);
+    cursor:url(images/cursor4.png), auto;
+}
+
+.imagefourteen:hover{
+    background-image: url(images/14.png);
+}
