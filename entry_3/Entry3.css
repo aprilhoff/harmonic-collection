@@ -7,19 +7,19 @@
 
 
 body{
-    background-color: rgb(255, 249, 224);
+    background-color: white;
 }
 
 
 h1{
-    color:#0C4767;
+    color:black;
     font-family: 'picnic';
     font-size: 100px;
     text-align: center;
 }
 
 h1:hover{
-    color: #566E3D;
+    color: black;
 }
 
 
