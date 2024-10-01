@@ -1,9 +1,4 @@
 
-
-body{
-    overflow-x: hidden;
-}
-
 /* Block 1 */
 
 .imageone{
@@ -49,6 +44,39 @@ body{
 .imagethree:hover{
     background-image: url(images/3.png);
 }
+
+/* Layer 1 */
+
+.layer1{
+    width: 606px;
+    height: 364px;
+    background: linear-gradient(90deg, #720003 0%, #BA713D 100%);
+    position: absolute;
+    left: 200px;
+    top: 650px;
+    z-index: 1;
+    cursor:url(images/cursor1.png), auto;
+}
+
+.layer1:hover{
+    background-image: url(images/layer1.png);
+}
+
+.layer2{
+    width: 479px;
+    height: 317px;
+    background: linear-gradient(180deg, #79502C 0%, #FBD294 100%);
+    position: absolute;
+    left: 1120px;
+    top: 100px;
+    z-index: 1;
+    cursor:url(images/cursor1.png), auto;
+}
+
+.layer2:hover{
+    background-image: url(images/layer2.png);
+}
+
 
 /* Block 2 */
 
@@ -111,6 +139,39 @@ body{
 
 .imageseven:hover{
     background-image: url(images/7.png);
+}
+
+/* Layer 2 */
+
+.rec1{
+    width: 480px;
+    height: 317px;
+    background: linear-gradient(90deg, #F7DD66 0%, #F6CCD3 46.5%, #7194AE 100%);
+    position: absolute;
+    top: 1200px;
+    left: 430px;
+    z-index: 1;
+    cursor:url(images/cursor2.png), auto;
+}
+
+.rec1:hover{
+    background-image: url(images/hover2.png);
+}
+
+.rec2:hover{
+    background-image: url(images/hover.png);
+    background-repeat: no-repeat;
+}
+
+.rec2{
+    width: 351px;
+    height: 255px;
+    background: linear-gradient(180deg, #CB142C 0%, #ED7EF9 100%);
+    position: absolute;
+    top: 3000px;
+    left:750px;
+    z-index: 1;
+    cursor:url(images/cursor3.png), auto;
 }
 
 /* Block 3 */
