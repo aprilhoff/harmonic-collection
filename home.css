@@ -1,0 +1,96 @@
+
+
+
+.backgroundimage{
+    background-image:url(homeimages/home1.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.backgroundimage2{
+    background-image:url(homeimages/home2.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:1440px;
+    left:0;
+
+}
+
+.backgroundimage3{
+    background-image:url(homeimages/home3.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:2880px;
+    left:0;
+
+}
+
+.backgroundimage4{
+    background-image:url(homeimages/home4.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:4320px;
+    left:0;
+
+}
+
+.backgroundimage5{
+    background-image:url(homeimages/home5.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:5760px;
+    left:0;
+
+}
+
+.backgroundimage6{
+    background-image:url(homeimages/home6.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:7200px;
+    left:0;
+
+}
+
+.backgroundimage7{
+    background-image:url(homeimages/home7.png);
+    height:1440px;
+    width:2325px;
+    position: absolute;
+    top:8640px;
+    left:0;
+
+}
+
+.text{
+    width: 95%;
+    height: 95%;
+    position: fixed;
+    left: 40px;
+    top:200px;
+    mix-blend-mode: difference;
+    z-index: 1;
+}
+
+
+/* lion heads */
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.lion1{
+    background-image: url(homeimages/lion1.png);
+    height:100%;
+    width:100%;
+    
+}
