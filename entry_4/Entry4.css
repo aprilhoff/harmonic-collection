@@ -53,16 +53,18 @@
 }
 
 .imagethree{
-    width: 30%;
+    width: 31%;
     height: 100vh;
     background: linear-gradient(180deg, #700103 0%, #C76C40 100%);
     background-size: cover;
-    cursor:url(images/cursor1.png), auto;
+    cursor:url(images/replace.png), auto;
 }
 
 .imagethree:hover{
     background-image: url(images/3.png);
-    background-size: cover;
+    background-size: 112%;
+    position: absolute;
+    left: 69%;
 }
 
 
