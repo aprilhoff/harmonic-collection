@@ -1,3 +1,20 @@
+/* scroll bar */
+
+
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
+
+
+
 html{
     cursor:url(homeimages/cursor1.png), auto;
 }
