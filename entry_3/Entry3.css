@@ -1,4 +1,198 @@
+html{
+    overflow-x:hidden;
+    background-color: lightblue;
+    cursor: url(images/cursordiff.png), auto;
+}
 
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: lightblue;
+}
+
+::-webkit-scrollbar-track{
+    background: #90ee90;
+}
+
+
+
+@font-face{
+    src: url(PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+
+h1{
+    color: whitesmoke;
+    font-family: 'picnic';
+    font-size: 9vh;
+    text-align: center;
+}
+
+h1:hover{
+    color: black;
+}
+
+
+p{
+    color: whitesmoke;
+    font-size: 2vh;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 10vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-bottom: 10vh;
+}
+
+p:hover{
+    color:black;
+}
+
+
+/* flex box 1 */
+
+.onea{
+    display: flex;
+    background-image: url(images/2a.png);
+    background-size: cover;
+    position: fixed auto;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneb{
+    background-image: url(images/8a.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.oneb:hover{
+    background-image: url(images/8b.png);
+    background-size: cover;
+}
+
+/* flex box 2 */
+
+.twoa{
+    display: flex;
+    background-image: url(images/3a.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.twob{
+    background-image: url(images/9a.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.twob:hover{
+    background-image: url(images/9b.png);
+    background-size: cover;
+}
+
+
+/* flex box 3 */
+
+
+.threea{
+    display: flex;
+    background-image: url(images/4a.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeb{
+    background-image: url(images/11a.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.threeb:hover{
+    background-image: url(images/11b.png);
+    background-size: cover;
+}
+
+
+/* flex box 4 */
+
+
+.foura{
+    display: flex;
+    background-image: url(images/7a.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourb{
+    background-image: url(images/b-33.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.fourb:hover{
+    background-image: url(images/b-34.png);
+    background-size: cover;
+}
+
+/* flex box 5 */
+
+
+.fivea{
+    display: flex;
+    background-image: url(images/b-29.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.fiveb{
+    background-image: url(images/b-31.png);
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    position: absolute;
+}
+
+.fiveb:hover{
+    background-image: url(images/b-32.png);
+    background-size: cover;
+}
+
+
+
+/* 
 @font-face{
     src: url(PicNic-Regular.otf);
     font-family: 'picnic';
@@ -20,13 +214,13 @@ h1{
 
 h1:hover{
     color: black;
-}
+} */
 
 
 
 /* block 1*/
 
-
+/* 
 .first{
     width: 600px ;
     height:800px;
@@ -63,11 +257,11 @@ h1:hover{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
 }
-
+ */
 
 /* block 2*/
 
-
+/* 
 .second{
     width: 1500px ;
     height: 1000px;
@@ -98,11 +292,11 @@ h1:hover{
 
 .third:hover{
     background-image: url(images/8b.png);
-}
+} */
 
 /* thrid block */
 
-
+/* 
 .four{
     width: 1500px ;
     height: 1000px;
@@ -134,10 +328,10 @@ h1:hover{
 
 .five:hover{
     background-image: url(images/9b.png);
-}
+} */
 
 /* fouth block */
-
+/* 
 .six{
     width: 1500px ;
     height: 1000px;
@@ -167,10 +361,10 @@ h1:hover{
 
 .seven:hover{
     background-image: url(images/11b.png);
-}
+} */
 
 /* fifth block */
-
+/* 
 
 .eight{
     width: 1500px ;
@@ -186,10 +380,10 @@ h1:hover{
 
 .eight:hover{
     background-image: url(images/7b.png);
-}
+} */
 
 /* sixth block */
-
+/* 
 .nine{
     width: 1500px ;
     height: 1000px;
@@ -218,10 +412,10 @@ h1:hover{
 
 .ten:hover{
     background-image: url(images/b-34.png);
-}
+} */
 
 /* seventh block */
-
+/* 
 .eleven{
     width: 1500px ;
     height: 1000px;
@@ -236,10 +430,10 @@ h1:hover{
 .eleven:hover{
     background-image: url(images/b-32.png);
 }
-
+ */
 
 /* image descriptions */
-
+/* 
 .textone{
     color: #0C4767;
     top: 137.5vw;
@@ -312,4 +506,4 @@ h1:hover{
 .last:hover{
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-}
+} */
