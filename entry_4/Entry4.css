@@ -1,28 +1,49 @@
+/* scroll bar */
 
-/* Block 1 */
+
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(90deg, #CF000B 0%, #4632E3 100%);
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(90deg, #EE81FF 2%, #CA1228 100%);
+}
+
+/* container block 1 */
+
+.block1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 .imageone{
-    width: 534px;
-    height: 1080px;
+    width: 20%;
+    height: 100vh;
+    background-size: cover;
     background: linear-gradient(180deg, #C1965F 0%, #694223 100%);
-    position: absolute;
-    top: 0px;
-    left: 0px;
     cursor:url(images/cursor1.png), auto;
-    
+    top: 0;
+    left: 0;
 }
 
 .imageone:hover{
-    background-image: url(images/1.png);  
-    
+    background-image:url(images/1.png);
+    background-size: cover;
 }
+
 .imagetwo{
-    width: 814px;
-    height: 1080px;
+    width: 50%;
+    height: 100vh;
     background: linear-gradient(180deg, #360206 0%, #C75B51 100%);
-    position: absolute;
-    left: 534px;
-    top:0px;
+    background-size: cover;
     cursor:url(images/cursor1.png), auto;
 }
 
@@ -32,246 +53,211 @@
 }
 
 .imagethree{
-    width: 420px;
-    height: 1080px;
+    width: 30%;
+    height: 100vh;
     background: linear-gradient(180deg, #700103 0%, #C76C40 100%);
-    position: absolute;
-    left: 1340px;
-    top:0px;
+    background-size: cover;
     cursor:url(images/cursor1.png), auto;
 }
 
 .imagethree:hover{
     background-image: url(images/3.png);
+    background-size: cover;
 }
 
-/* Layer 1 */
 
-.layer1{
-    width: 606px;
-    height: 364px;
-    background: linear-gradient(90deg, #720003 0%, #BA713D 100%);
+/* container block 2 */
+
+.block2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
     position: absolute;
-    left: 200px;
-    top: 650px;
-    z-index: 1;
-    cursor:url(images/cursor1.png), auto;
+    top: 100vh;
+    left: 0;
 }
-
-.layer1:hover{
-    background-image: url(images/layer1.png);
-}
-
-.layer2{
-    width: 479px;
-    height: 317px;
-    background: linear-gradient(180deg, #79502C 0%, #FBD294 100%);
-    position: absolute;
-    left: 1120px;
-    top: 100px;
-    z-index: 1;
-    cursor:url(images/cursor1.png), auto;
-}
-
-.layer2:hover{
-    background-image: url(images/layer2.png);
-}
-
-
-/* Block 2 */
-
 .imagefour{
-    width: 862px;
-    height: 647px;
+    width: 50%;
+    height: 60%;
     background: linear-gradient(180deg, #6992B1 0%, #C4A187 100%);
-    position: absolute;
-    top:1080px;
-    left: 0px;
     cursor:url(images/cursor2.png), auto;
+    
 }
 
 
 .imagefour.imagefour:hover{
     background-image: url(images/4.png);
+    background-size: cover;
 }
 
 
 .imagefive{
-    width: 1110px;
-    height: 1130px;
+    width: 50%;
+    height: 100vh;
     background: linear-gradient(180deg, #F6CBD7 0%, #F7DF53 100%);
-    position: absolute;
-    top:1080px;
-    left: 647px;
     cursor:url(images/cursor2.png), auto;
 }
 
 
 .imagefive:hover{
     background-image: url(images/5.png);
+    background-size: cover;
 }
 
 
 .imagesix{
-    width: 443px;
-    height: 483px;
+    width: 25%;
+    height: 40%;
     background: linear-gradient(90deg, #CF68BF 0%, #FAC3A4 100%);
     position: absolute;
-    top:1727px;
-    left: 0px;
+    top:60%;
+    left:0;
     cursor:url(images/cursor2.png), auto;
 }
 
 
 .imagesix:hover{
     background-image: url(images/6.png);
+    background-size: cover;
 }
 
+
 .imageseven{
-    width: 204px;
-    height: 483px;
+    width: 25%;
+    height: 40%;
     background: linear-gradient(270deg, #6992B1 0% 0%, #9EA7A3 87.42%);
     position: absolute;
-    top:1727px;
-    left: 443px;
+    top:60%;
+    left:25%;
     cursor:url(images/cursor2.png), auto;
 }
 
 .imageseven:hover{
     background-image: url(images/7.png);
-}
-
-/* Layer 2 */
-
-.rec1{
-    width: 480px;
-    height: 317px;
-    background: linear-gradient(90deg, #F7DD66 0%, #F6CCD3 46.5%, #7194AE 100%);
-    position: absolute;
-    top: 1200px;
-    left: 430px;
-    z-index: 1;
-    cursor:url(images/cursor2.png), auto;
-}
-
-.rec1:hover{
-    background-image: url(images/hover2.png);
-}
-
-.rec2:hover{
-    background-image: url(images/hover.png);
-    background-repeat: no-repeat;
-}
-
-.rec2{
-    width: 351px;
-    height: 255px;
-    background: linear-gradient(180deg, #CB142C 0%, #ED7EF9 100%);
-    position: absolute;
-    top: 3000px;
-    left:750px;
-    z-index: 1;
-    cursor:url(images/cursor3.png), auto;
-}
+    background-size: cover;
+} 
 
 /* Block 3 */
+.block3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 200vh;
+    left: 0;
+}
 
 .imageeight{
     background: linear-gradient(90deg, #CF000B 0%, #4632E3 100%);
-    width: 720px;
-    height: 540px;
+    width: 45%;
+    height: 50%;
     position: absolute;
-    top: 2210px;
-    left: 0px;
+    left: 0;
     cursor:url(images/cursor3.png), auto;
 }
 
 .imageeight:hover{
     background-image: url(images/8.png);
+    background-size: cover;
 }
 
 .imagenine{
     background: linear-gradient(90deg, #1222FF -5.56%, #C3051E 100%);
-    width: 720px;
-    height: 540px;
+    width: 45%;
+    height: 50%;
     position: absolute;
-    top: 2750px;
-    left: 0px;
+    top: 50%;
+    left: 0;
     cursor:url(images/cursor3.png), auto;
 }
 
 .imagenine:hover{
     background-image: url(images/9.png);
+    background-size: cover;
 }
 
 .imageten{
     background:linear-gradient(90deg, #F5D46D 0%, #BB1A25 100%);
-    width: 648px;
-    height: 435px;
+    width: 30%;
+    height: 40%;
     position: absolute;
-    top: 2210px;
-    left: 720px;
+    top: 0;
+    left: 45%;
     cursor:url(images/cursor3.png), auto;
 }
 
 .imageten:hover{
     background-image: url(images/10.png);
+    background-size: cover;
 }
 
 .imageeleven{
-    width: 394px;
-    height: 435px;
+    width: 30%;
+    height: 40%;
     background: linear-gradient(90deg, #F77DB5 0%, #0475BC 100%);
     position: absolute;
-    top: 2210px;
-    left: 1368px;
+    top: 0;
+    left: 70%;
     cursor:url(images/cursor3.png), auto;
-
 }
 
 .imageeleven:hover{
     background-image: url(images/11.png);
+    background-size: cover;
 }
 
 .imagetwelve{
-    width: 1042px;
-    height: 645px;
+    width: 55%;
+    height: 60%;
     background: linear-gradient(90deg, #EE81FF 2%, #CA1228 100%);
     position: absolute;
-    top: 2645px;
-    left: 720px;
+    top: 40%;
+    left: 45%;
     cursor:url(images/cursor3.png), auto;
 }
 
 .imagetwelve:hover{
     background-image: url(images/12.png);
+    background-size: cover;
 }
 
-/* Block 4 */
+/* block 4 */
+
+.block4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 300vh;
+    left: 0;
+}
+
 
 .imagethirteen{
-    width: 582px;
-    height: 1080px;
+    width: 40%;
+    height: 100%;
     position: absolute;
-    top: 3290px;
+    top: 0;
     left: 0px;
     background: linear-gradient(180deg, #EA382E 0%, #E9C070 100%);
     cursor:url(images/cursor4.png), auto;
 }
 .imagethirteen:hover{
     background-image: url(images/13.png);
+    background-size: cover;
 }
 
 .imagefourteen{
-    width: 1180px;
-    height: 1080px;
+    width: 60%;
+    height: 100%;
     position: absolute;
-    top: 3290px;
-    left: 582px;
+    top: 0;
+    left: 40%;
     background:  linear-gradient(90deg, #EB3D31 7.56%, #EABC6E 99.91%);
     cursor:url(images/cursor4.png), auto;
 }
 
 .imagefourteen:hover{
     background-image: url(images/14.png);
-}
+    background-size: cover;
+} 

@@ -7,6 +7,21 @@
     src: url(PicNic-Regular.otf);
     font-family: 'picnic';
 }
+
+
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-track{
+    background: black;
+}
+
 /* heading styling */
 
 h1 {
