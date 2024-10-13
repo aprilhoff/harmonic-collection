@@ -1,0 +1,64 @@
+/* scroll bar */
+
+
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #399570;
+}
+
+::-webkit-scrollbar-track{
+    background: #ede5d0 ;
+}
+
+
+
+@font-face{
+    src: url(../entry_3/PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+
+h1{
+    font-family: 'picnic';
+    font-size: 20vh;
+    z-index: 1;
+    position: absolute;
+    top: 58%;
+    left:61%;
+    color: #399570;
+}
+
+p{
+    color: #ede5d0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.undefinedvoice{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ 
+.voice{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 100vh;
+    background-color:#399570;
+}
