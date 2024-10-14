@@ -20,14 +20,14 @@
     font-family: 'picnic';
 }
 
-.overlay{
-    background: url(images/1.png);
+
+.imagetwo{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 
 
@@ -44,6 +44,12 @@ h1{
 p{
     color: #ede5d0;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    z-index: 2;
+}
+
+span{
+    opacity: 0%;
 }
 
 .undefinedvoice{
@@ -55,7 +61,7 @@ p{
     top: 0;
 }
 
-img{
+.imageone{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -72,4 +78,42 @@ img{
     left: 0;
     top: 100vh;
     background-color:#399570;
+    row-gap: 10vh;
+    
+}
+
+/* individual voices */
+
+
+.momtext{
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 50% ;
+}
+
+
+.dadtext{
+    position: absolute;
+    top: 1%;
+    left: 1% ;
+}
+
+.cousintext{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    z-index: 1;
+}
+
+.unclesvoice{
+    position: absolute;
+    top: 1%;
+    left: 70%;
+}
+
+.auntsvoice{
+    position: absolute;
+    top: 75%;
+    left: 50%;
 }
