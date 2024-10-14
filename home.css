@@ -13,7 +13,9 @@
     background: black;
 }
 
-
+body{
+    margin: 0;
+}
 
 html{
     cursor:url(homeimages/cursor1.png), auto;
