@@ -27,12 +27,13 @@ html{
 
 .container{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 125px;
     width: 100%;
     position:fixed;
     top: 20px;
     mix-blend-mode: multiply;
+
 }
 
 .lion1{
@@ -41,6 +42,7 @@ html{
     width: 156px;
     height: 117px;
     cursor:url(homeimages/cursorred.png), auto; 
+    margin-right: 40px;
 }
 
 .lion1:hover{
@@ -54,6 +56,8 @@ html{
     width: 107px;
     height: 117px;
     cursor:url(homeimages/cursorred.png), auto;
+    margin-right: 40px;
+
 }
 
 
@@ -68,6 +72,8 @@ html{
     width: 230px;
     height: 117px;
     cursor:url(homeimages/cursorred.png), auto;
+    margin-right: 40px;
+
 }
 
 .lion3:hover{
@@ -81,6 +87,8 @@ html{
     width: 124px;
     height: 117px;
     cursor:url(homeimages/cursorred.png), auto;
+    margin-right: 40px;
+
 }
 
 
@@ -95,6 +103,8 @@ html{
     width: 115px;
     height: 117px;
     cursor:url(homeimages/cursorred.png), auto;
+    margin-right: 40px;
+
 }
 
 .lion5:hover{
