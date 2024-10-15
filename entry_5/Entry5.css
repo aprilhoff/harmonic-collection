@@ -20,6 +20,10 @@
     font-family: 'picnic';
 }
 
+html{
+    background-color: #399570;
+}
+
 
 .imagetwo{
     width: 100%;
@@ -116,4 +120,21 @@ span{
     position: absolute;
     top: 75%;
     left: 50%;
+}
+
+
+/* footer */
+
+.footer{
+    top: 200vh;
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
 }

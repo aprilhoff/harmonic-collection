@@ -13,6 +13,10 @@
     background: linear-gradient(90deg, #EE81FF 2%, #CA1228 100%);
 }
 
+html{
+    background: linear-gradient(90deg, #EE81FF 2%, #CA1228 100%);
+}
+
 /* container block 1 */
 
 .block1{
@@ -263,3 +267,24 @@
     background-image: url(images/14.png);
     background-size: cover;
 } 
+
+
+/* footer */
+
+.footer{
+    top: 400vh;
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.svg{
+    height: 22px;
+    width: auto;
+}

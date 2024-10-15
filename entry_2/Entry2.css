@@ -107,3 +107,14 @@ h1 {
 .gif2{
     height:100vh ;
 }
+
+/* footer */
+
+.footer{
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
