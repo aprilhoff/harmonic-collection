@@ -33,7 +33,6 @@ html{
     position:fixed;
     top: 20px;
     mix-blend-mode: multiply;
-
 }
 
 .lion1{
@@ -181,4 +180,37 @@ html{
     top:200px;
     mix-blend-mode: difference;
     z-index: 1;
+}
+
+/* Media Querie iphone */
+
+@media (max-width:940px){
+    .container{
+        width: 100vw;
+    }
+
+    .lion1{
+        width: 39px;
+        height: 29.25px;
+    }
+
+    .lion2{
+        width: 26.75px;
+        height: 29.25px;
+    }
+
+    .lion3{
+        width: 57.5px;
+        height: 29.25px;
+    }
+
+    .lion4{
+        width: 31px;
+        height: 29.25px;
+    }
+
+    .lion5{
+        width: 28.75px;
+        height: 29.25px;
+    }
 }
