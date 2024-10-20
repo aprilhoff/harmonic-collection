@@ -8,6 +8,9 @@
     font-family: 'picnic';
 }
 
+html{   
+    cursor: url(images/cursorentry2.png), auto;
+}
 
 ::-webkit-scrollbar{
     width: 2vw;
