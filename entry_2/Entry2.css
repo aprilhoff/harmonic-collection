@@ -121,3 +121,41 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+/* Media Querie iphone */
+
+@media (max-width:940px){
+    .one{
+        background-image: url(images/4.png);
+        background-size: cover;
+        height: 50%;
+        width: 50%;
+    }
+    
+    .two{
+        background-image: url(images/5.png);
+        background-size: cover;
+        height: 50%;
+        width: 50%;
+    }
+
+
+    .paragraph1{ 
+        margin-left: auto;
+    }
+    
+    .paragraph2{
+        margin-left: auto;
+    }
+
+    .gif1{
+        height: 50%;
+        width: 50%;
+    }
+    .gif2{
+        height: 50%;
+        width: 50%;
+    }
+}

@@ -203,3 +203,17 @@ p:hover{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
+/* Media Querie iphone */
+
+@media (max-width:940px){
+  p{
+    font-size: 2vh;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vh;
+  }  
+}
