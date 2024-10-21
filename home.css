@@ -90,7 +90,6 @@ html{
 
 }
 
-
 .lion4:hover{
     width: 127px;
     height: 120px;
@@ -187,37 +186,73 @@ html{
 @media (max-width:940px){
     .container{
         width: 100vw;
+        position: fixed;
+        left: 20px;
     }
 
     .lion1{
-        width: 86px;
-        height: 47px;
+        width: 56px;
+        height: 37px;
     }
 
     .lion2{
-        width: 37px;
-        height: 47px;
+        width: 27px;
+        height: 37px;
     }
 
     .lion3{
-        width: 95px;
-        height: 47px;
+        width: 85px;
+        height: 37px;
     }
 
     .lion4{
-        width: 54px;
-        height: 47px;
+        width: 44px;
+        height: 37px;
     }
 
     .lion5{
-        width: 45px;
-        height: 47px;
+        width: 35px;
+        height: 37px;
     }
 
     .text{
         position: fixed;
         left: auto;
-        top:350px;
+        top:250px;
+    }
+  
+    .one{
+        background-image: url(homeimages/m1.png);
+        background-size: cover;
+    }
+    .two{
+        background-image: url(homeimages/replace.png);
+        background-size: cover;
+    }
+
+    .three{
+        background-image: url(homeimages/m2.png);
+        background-size: cover;  
+    }
+
+    .four{
+        background-image: url(homeimages/m3.png);
+        background-size: cover;
+    }
+
+    .five{
+        background-image: url(homeimages/m4.png);
+        background-size: cover;
+    }
+
+    .six{
+        background-image: url(homeimages/m5.png);
+        background-size: cover;
+    }
+
+    .seven{
+        background-image: url(homeimages/m6.png);
+        background-size: cover;
     }
 }
 
