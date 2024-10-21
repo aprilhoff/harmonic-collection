@@ -190,34 +190,34 @@ html{
     }
 
     .lion1{
-        width: 39px;
-        height: 29.25px;
+        width: 86px;
+        height: 47px;
     }
 
     .lion2{
-        width: 26.75px;
-        height: 29.25px;
+        width: 37px;
+        height: 47px;
     }
 
     .lion3{
-        width: 57.5px;
-        height: 29.25px;
+        width: 95px;
+        height: 47px;
     }
 
     .lion4{
-        width: 31px;
-        height: 29.25px;
+        width: 54px;
+        height: 47px;
     }
 
     .lion5{
-        width: 28.75px;
-        height: 29.25px;
+        width: 45px;
+        height: 47px;
     }
 
     .text{
         position: fixed;
         left: auto;
-        top:400px;
+        top:350px;
     }
 }
 
