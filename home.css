@@ -213,4 +213,12 @@ html{
         width: 28.75px;
         height: 29.25px;
     }
+
+    .text{
+        position: fixed;
+        left: auto;
+        top:400px;
+    }
 }
+
+
