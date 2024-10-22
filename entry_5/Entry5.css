@@ -139,3 +139,23 @@ span{
     justify-content: space-between;
     z-index: 3;
 }
+
+
+/* Media Querie iphone */
+
+@media (max-width:940px){
+
+    .imageone{
+        width: 100vw;
+        height: 30vh;
+    }
+    .imagetwo{
+        opacity: 0;
+    }
+
+    h1{
+        font-size: 50px;
+        position: fixed;
+        top: 130px;
+    }
+}

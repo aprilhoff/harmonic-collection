@@ -288,3 +288,32 @@ html{
     height: 22px;
     width: auto;
 }
+
+
+
+/* Media Querie iphone */
+
+@media (max-width:940px){
+.imagefour{
+    background-image: url(images/4.png);
+    background-size: cover;
+
+}
+
+.imageeleven{
+    background-size: cover;
+    background-image: url(images/11.png);
+}
+
+.imagenine{
+    background-image: url(images/9.png);    background-size: cover;
+
+}
+
+
+.imagefourteen{
+    background-image:url(images/14.png);
+    background-size: cover;
+}
+
+}
