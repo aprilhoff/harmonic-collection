@@ -139,6 +139,7 @@ span{
     flex-direction: row;
     justify-content: space-between;
     z-index: 3;
+    width: 95vw;
 }
 
 

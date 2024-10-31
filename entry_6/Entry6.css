@@ -1,0 +1,187 @@
+
+@font-face{
+    src: url(../entry_2/PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+
+
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-track{
+    background: #0000FF;
+}
+
+html{
+    overflow-x: hidden;
+    width: 100vw;
+    height:2100px;
+    background-image: url(images/bck.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   cursor: url(images/jurgencursor.png), auto;
+}
+
+.opa{
+    opacity: 100%;
+    position: fixed;
+    height: 80vh;
+    width: auto;
+    margin-left: 35%;
+    top: 100px;
+}
+
+h1{
+    position: fixed;
+    font-family: 'picnic';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vh;
+    left: 50%;
+    top: 1px;
+    transform: translate(-50%, -50%);
+}
+    h1:hover{
+        opacity: 0;
+    }
+
+
+    #reveal1{
+        position: absolute;
+        height: 40vh;
+        width: auto;
+        opacity: 0;
+        top: 10vh;
+        left: 2vw;
+    }
+
+    #reveal1:hover{
+        opacity: 100%;
+    }
+
+    #reveal2{
+        position: absolute;
+        height: 30vh;
+        width: auto;
+        opacity: 0;
+        top: 20vh;
+        left: 70vw;
+    }
+
+    #reveal2:hover{
+        opacity: 100%;
+    }
+
+    #reveal3{
+        position: absolute;
+        height: 30vh;
+        width: auto;
+        opacity: 0;
+        top: 90vh;
+        left: 70vw;
+    }
+
+    #reveal3:hover{
+        opacity: 100%;
+    }
+
+
+    #reveal4{
+        position: absolute;
+        height: 40vh;
+        width: auto;
+        opacity: 0;
+        top: 120vh;
+        left: 2vw;
+    }
+
+    #reveal4:hover{
+        opacity: 100%;
+    }
+
+    #reveal5{
+        position: absolute;
+        height: 60vh;
+        width: auto;
+        opacity: 0;
+        top: 170vh;
+        left: 70vw;
+    }
+
+    #reveal5:hover{
+        opacity: 100%;
+    }
+
+    
+    
+
+/* footer */
+
+.footer{
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 2100px;
+    width: 95vw;
+}
+
+
+@media (max-width:1125px){
+
+
+    html{
+       background-size: contain;
+       background-repeat: repeat;
+    }
+    #reveal1{
+        opacity: 100%;
+        height: 80px;
+    }
+    #reveal2{
+        opacity: 100%;
+        height: 80px;
+    }
+    #reveal3{
+        opacity: 100%;
+        height: 80px;
+        top: 80px;
+    }
+    #reveal4{
+        opacity: 100%;
+        height: 80px;
+        top: 300px;
+    }
+    #reveal5{
+        opacity: 100%;
+        height: 80px;
+        top: 400px;
+    }
+
+    h1{
+        font-size: 20px;
+        top: 0;
+        text-align: center;
+        position: absolute;
+    }
+
+    .opa{
+        height: 400px;
+        width: auto;
+        position: sticky;
+        margin-left: 60px;
+    }
+
+    .footer{
+        top: 400px;
+    }
+}
