@@ -1,4 +1,18 @@
 
+::-webkit-scrollbar{
+    width: 2vw;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: yellow;
+}
+
+::-webkit-scrollbar-track{
+    background: blue;
+}
+
+
 
 @font-face{
     src: url(../entry_3/PicNic-Regular.otf);
@@ -33,6 +47,7 @@ img{
     button{
         font-family: 'Courier New', Courier, monospace;
         font-weight: 400;
+        color: blue;
     }
 /* 
 h1{
