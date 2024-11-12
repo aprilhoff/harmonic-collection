@@ -1,0 +1,109 @@
+
+
+@font-face{
+    src: url(../entry_3/PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+
+html{
+    background-color: whitesmoke;
+}
+
+
+.omi{
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+img{
+    width: 46vw;
+    height: auto;
+}
+
+
+/* button */
+
+.buttonch{
+    display: flex;
+    justify-content: space-around;
+}
+
+    button{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+    }
+/* 
+h1{
+    opacity: 0;
+} */
+
+/* js text */
+
+.bye{
+    color: blue;
+    font-family: 'picnic';
+    font-size: 35vh;
+    position: absolute;
+    top: 1vh;
+    left: 16vw;
+    mix-blend-mode: difference;
+}
+
+.nein{
+    color: rgb(0, 55, 255);
+    font-family: 'picnic';
+    font-size: 40vh;
+    position: absolute;
+    top: 1vh;
+    left: 20vw;
+    mix-blend-mode: difference;
+}
+
+.krass{
+    color: rgb(57, 46, 171);
+    font-family: 'picnic';
+    font-size: 50vh;
+    position: absolute;
+    top: 0;
+    left: 10vw;
+    mix-blend-mode: difference;
+}
+
+.gute{
+    color: rgb(132, 50, 255);
+    font-family: 'picnic';
+    font-size: 10vh;
+    position: absolute;
+    top: 40vh;
+    left: 25vw;
+    mix-blend-mode: difference;
+}
+
+.scholli{
+    color: rgb(38, 53, 22);
+    font-family: 'picnic';
+    font-size: 10vh;
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    mix-blend-mode: difference;
+}
+
+/* footer */
+
+.footer{
+    top: 20vh;
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+    width: 95vw;
+}
