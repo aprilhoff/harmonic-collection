@@ -1,0 +1,63 @@
+
+::-webkit-scrollbar{
+    width: 0vw;
+}
+
+@font-face{
+    src: url(../entry_3/PicNic-Regular.otf);
+    font-family: 'picnic';
+}
+
+
+
+body {
+    background-image: url(images/one.png);
+    font-family: 'picnic';
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-weight:  normal;
+  }
+  
+  .button {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 20px 50px;
+    color: black;
+    font-size: 36px;
+  }
+  
+  .button:hover {
+    background-color: rgb(255, 0, 0);
+    mix-blend-mode: exclusion;
+    cursor: pointer;
+    border-radius: 100px;
+    padding: 200px 200px;
+    transition: 90ms ease;
+  }
+
+
+/* footer */
+
+.footer{
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+    width: 95vw;
+}
