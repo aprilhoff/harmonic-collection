@@ -18,3 +18,32 @@ let newBackground = () => {
 };
 
 button.addEventListener("click", newBackground);
+
+
+// let buttonColor = document.querySelector("#blue");
+// let mainButton = document.querySelector(".button")
+
+// let newColor = ()=> {
+//     buttonColor.classList.toggle("bluebutton")
+// }
+
+// buttonColor.addEventListener("click", newColo)
+
+let blueButton = document.querySelector("#blue");
+let mainButton = document.querySelector("#mainButton");
+
+let newButton = () =>{
+    mainButton.classList.toggle("bluebutton")
+}
+blueButton.addEventListener("click",newButton)
+
+
+
+let redButton = document.querySelector("#red");
+
+let mainRedButton = document.querySelector("#mainButton");
+
+let newRedButton = () =>{
+    mainRedButton.classList.toggle("redbutton")
+}
+redButton.addEventListener("click",newRedButton)

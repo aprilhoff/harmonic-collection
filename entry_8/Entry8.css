@@ -46,6 +46,44 @@ body {
   }
 
 
+/* button change color */
+
+.changebutton{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+  #red{
+    background-color: red;
+  }
+
+  .redbutton{
+    background-color: red;
+      color: black;
+  }
+
+  .redbutton:hover {
+    background-color: red;
+  }
+  #blue{
+    background-color: blue;
+  }
+
+    .bluebutton {
+      background-color: blue;
+      color: white;
+    }
+    
+    .bluebutton:hover {
+      background-color: blue;
+    }
+  
 /* footer */
 
 .footer{
