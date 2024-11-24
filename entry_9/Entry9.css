@@ -1,0 +1,73 @@
+html{
+    background-color: black;
+    overflow: hidden;
+}
+
+.spotify{
+    display: flex;
+    justify-content: center;
+}
+
+.spt{
+    margin-top: 20vh;
+}
+
+.rotate {
+    transform: rotate(360deg);
+  }
+
+
+img{
+    height: 30vh;
+    width: auto;
+    position: absolute;
+    animation: rotateImages 10s infinite linear;
+}
+@keyframes rotateImages {
+    0% {
+        transform: rotate(0deg); /* Start from 0 degrees */
+    }
+    100% {
+        transform: rotate(360deg); /* Rotate 360 degrees */
+    }
+}
+
+    .one{
+        top: 8vh;
+        left: 8vw;
+    }
+    .two{
+        top: 8vh;
+        left: 70vw;
+    }
+    .three{
+        top: 60vh;
+        left: 80vw;
+    }
+    .four{
+        top: 60vh;
+        left: 5vw;
+    }
+    .five{
+        top: 65vh;
+        left: 50vw;
+    }
+
+
+/* footer */
+
+.footer{
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 10vh;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+    width: 95vw;
+    
+}
+
