@@ -44,10 +44,7 @@ html{
     margin-right: 40px;
 }
 
-.lion1:hover{
-    width: 159px;
-    height: 120px;
-}
+
 
 .lion2{
     background-image: url(homeimages/lion2.png);
@@ -60,10 +57,6 @@ html{
 }
 
 
-.lion2:hover{
-    width: 110px;
-    height: 120px;
-}
 
 .lion3{
     background-image: url(homeimages/lion3.png);
@@ -75,10 +68,7 @@ html{
 
 }
 
-.lion3:hover{
-    width: 233px;
-    height: 120px;
-}
+
 
 .lion4{
     background-image: url(homeimages/lion4.png);
@@ -90,10 +80,7 @@ html{
 
 }
 
-.lion4:hover{
-    width: 127px;
-    height: 120px;
-}
+
 
 .lion5{
     background-image: url(homeimages/lion5.png);
@@ -104,11 +91,19 @@ html{
     margin-right: 40px;
 
 }
+/* 
 
-.lion5:hover{
-    width: 118px;
-    height: 120px;
-}
+.lion6{
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 117px;
+    cursor:url(homeimages/cursorred.png), auto;
+    margin-right: 40px;
+
+} */
+
 
 
 
