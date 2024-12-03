@@ -160,3 +160,21 @@ button{
     background-color: whitesmoke;
 
 }
+
+/* footer */
+
+.footer{
+    left: 0;
+    position: relative;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: 90vh;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 3;
+    width: 95vw;
+    
+}
+
